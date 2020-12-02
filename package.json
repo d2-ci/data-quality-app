@@ -1,6 +1,56 @@
 {
   "name": "data-quality-app",
-  "description": null,
-  "license": null,
-  "version": "31.0.0"
+  "version": "31.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prestart": "npm run localize",
+    "pretest": "npm run localize",
+    "prebuild": "npm run localize",
+    "lint": "d2-style js check --all",
+    "localize": "yarn extract-pot && d2-i18n-generate -n data-quality-app -p ./i18n/ -o ./src/locales/",
+    "extract-pot": "d2-i18n-extract -p src/ -o i18n/"
+  },
+  "dependencies": {
+    "@dhis2/d2-i18n": "^1.0.6",
+    "@dhis2/d2-ui-header-bar": "^1.1.7",
+    "classnames": "^2.2.5",
+    "d2": "^28.3.0",
+    "d2-ui": "^29.0.18",
+    "loglevel": "^1.6.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "material-ui": "^0.20.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "rxjs": "^5.5.7",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "@dhis2/cli-style": "^3.2.2",
+    "@dhis2/d2-i18n-extract": "^1.0.8",
+    "@dhis2/d2-i18n-generate": "^1.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "husky": "^2.3.0",
+    "jest-enzyme": "^7.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "d2-style commit check",
+      "pre-commit": "d2-style js apply"
+    }
+  },
+  "greenkeeper": {
+    "ignore": [
+      "@dhis2/d2-ui-header-bar",
+      "d2",
+      "rxjs"
+    ]
+  }
 }
