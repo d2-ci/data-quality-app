@@ -1,7 +1,8 @@
 {
   "type": "app",
-  "name": "data-quality-app",
+  "name": "data-quality",
+  "title": "Data Quality",
+  "coreApp": true,
   "version": "1.0.0",
-  "description": "",
-  "title": "data-quality-app"
+  "description": ""
 }

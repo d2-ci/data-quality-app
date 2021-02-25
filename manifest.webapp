@@ -1,9 +1,10 @@
 {
   "appType": "APP",
-  "short_name": "data-quality-app",
-  "name": "data-quality-app",
+  "short_name": "data-quality",
+  "name": "Data Quality",
   "description": "",
   "version": "1.0.0",
+  "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
@@ -14,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Thu Feb 25 2021 18:53:12 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Thu Feb 25 2021 22:16:22 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
