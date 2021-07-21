@@ -3,7 +3,7 @@
   "short_name": "data-quality",
   "name": "Data Quality",
   "description": "",
-  "version": "1.7.20",
+  "version": "1.7.21",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -15,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Wed Jul 21 2021 08:53:16 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Wed Jul 21 2021 10:10:54 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
