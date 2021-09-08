@@ -1,6 +1,6 @@
 {
     "name": "data-quality-app",
-    "version": "1.8.1",
+    "version": "1.9.4",
     "description": "",
     "license": "BSD-3-Clause",
     "private": true,
@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "@dhis2/cli-app-scripts": "^8.0.0-beta.4",
-        "@dhis2/cli-style": "^9.0.1"
+        "@dhis2/cli-style": "^9.2.0"
     },
     "dependencies": {
         "@dhis2/app-runtime": "^3.0.0",
