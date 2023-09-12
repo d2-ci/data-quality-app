@@ -36,10 +36,5 @@
     },
     "resolutions": {
         "@dhis2/ui": "^8.12.2"
-    },
-    "jest": {
-        "collectCoverageFrom": [
-            "src/**/*.js"
-        ]
     }
 }
