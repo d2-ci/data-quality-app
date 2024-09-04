@@ -3,6 +3,9 @@
   "name": "data-quality",
   "title": "Data Quality",
   "coreApp": true,
-  "version": "1.10.25",
-  "description": ""
+  "version": "1.10.26",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html"
+  }
 }
