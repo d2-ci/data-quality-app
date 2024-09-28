@@ -1,0 +1,11 @@
+{
+  "type": "app",
+  "name": "data-quality",
+  "title": "Data Quality",
+  "coreApp": true,
+  "version": "1.10.27",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}
