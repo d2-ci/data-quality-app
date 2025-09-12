@@ -1,0 +1,25 @@
+{
+  "type": "app",
+  "name": "data-quality",
+  "title": "Data Quality",
+  "coreApp": true,
+  "shortcuts": [
+    {
+      "name": "Validation rule analysis",
+      "url": "#/validation-rules-analysis"
+    },
+    {
+      "name": "Outlier detection",
+      "url": "#/outlier-detection"
+    },
+    {
+      "name": "Follow-up analysis",
+      "url": "#/follow-up-analysis"
+    }
+  ],
+  "version": "1.10.36",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}
