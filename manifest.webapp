@@ -15,8 +15,22 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Mon Mar 24 2025 07:04:47 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Wed Sep 17 2025 12:59:50 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Validation rule analysis",
+      "url": "#/validation-rules-analysis"
+    },
+    {
+      "name": "Outlier detection",
+      "url": "#/outlier-detection"
+    },
+    {
+      "name": "Follow-up analysis",
+      "url": "#/follow-up-analysis"
+    }
+  ]
 }
