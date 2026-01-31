@@ -1,0 +1,36 @@
+{
+  "appType": "APP",
+  "short_name": "data-quality",
+  "name": "Data Quality",
+  "description": "",
+  "version": "1.11.1",
+  "core_app": true,
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Sat Jan 31 2026 22:59:02 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Validation rule analysis",
+      "url": "#/validation-rules-analysis"
+    },
+    {
+      "name": "Outlier detection",
+      "url": "#/outlier-detection"
+    },
+    {
+      "name": "Follow-up analysis",
+      "url": "#/follow-up-analysis"
+    }
+  ]
+}
