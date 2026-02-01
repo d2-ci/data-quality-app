@@ -17,7 +17,7 @@
       "url": "#/follow-up-analysis"
     }
   ],
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "",
   "entryPoints": {
     "app": "index.html"
