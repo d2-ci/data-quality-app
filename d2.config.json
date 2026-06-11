@@ -19,7 +19,7 @@
     }
   ],
   "minDHIS2Version": "2.38",
-  "version": "100.0.0",
+  "version": "100.0.1",
   "description": "",
   "entryPoints": {
     "app": "index.html"
